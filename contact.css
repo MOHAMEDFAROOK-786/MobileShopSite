@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* height:100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #33333331; */
+}
+
+
+
+.container{
+    /* width: 50vw; */
+    /* height: 50vh; */
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 5px;
+
+}
+/* .goat{
+    position: relative;
+    bottom: 15rem;
+} */
+ p{
+    font-size: 25px;
+    color: blue;
+    padding: 10px;
+}
+ h2 {
+    color: orange;
+}
+ h2{
+    padding: 5px;
+}
+h1{
+    text-align: center;
+}
+.shop {
+    color: orange;
+}
+.cart {
+    color: blue;
+}
+.con {
+    color: orange;
+}
+.us {
+    color: blue;
+}
+.div{
+    width:100%;
+    height:50vh;
+}
+.help{
+    text-align: center;
+}
+.help input{
+    width: 50vw;
+    height: 5vh;
+}
+.help button{
+    padding: 5px;
+    background-color: blue;
+    color: whitesmoke;
+}
+.help #para1{
+    color: red;
+}
+.help .para{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+nav{
+    background-color:#333;
+    font-size: 28px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    color:darkslateblue;
+}
+
+nav li{
+    display:inline-block;
+    margin:0 8px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.logo{
+    font-size:36px;
+    font-weight: bolder;
+    height:4rem;
+}
+.logo1{
+    position:relative;
+    left:6rem;
+    bottom:3rem;
+}
+
+nav a:hover{
+    color:whitesmoke;
+}
+
+.menu-line{
+    height:3px;
+    width:20px;
+    background-color: darkslateblue;
+    margin-bottom: 3px;
+}
+
+.menu{
+    cursor:pointer;
+    display:none;   
+}
+.foot4 ul li{
+    display: inline;
+    padding: 10px;
+}
+
+
+.foot4{
+
+   position: relative;
+   left: 450px;
+    
+}
+
+
+
+ footer{ 
+    /* width: 100%; */
+    /* height: 60; */
+    /* border: 2px solid black; */
+      background-color: #333;  
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+     justify-content:center ; 
+     padding: 10px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+ }       
+                  
+footer  a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media all and (max-width:640px){
+    nav{
+        flex-direction: column;
+    }
+
+    nav li{
+        display:block;
+        padding:10px 0;
+    }
+    ul{
+        text-align: center;
+        padding:0;
+        display:none;
+    }
+
+    .logo{
+        align-self:flex-start;
+        margin:10px 0px 0px 0px;
+    }
+
+    .menu{
+        display:block;
+        position:absolute;
+        right:30px;
+        top:15px;
+    }
+
+    .showmenu{
+        display:block;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 10px;
+        margin-top: 5px;
+
+    }
+     .foot1{ 
+        padding: 10px;
+        margin-top: 5px;
+    }
+    .foot4{
+        margin-right: 60rem;
+    }
+  }
+  
+    
+
+@media all and (max-width:320px){
+
+}
